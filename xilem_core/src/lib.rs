@@ -54,7 +54,7 @@ pub use element::{AnyElement, Mut, NoElement, SuperElement, ViewElement};
 mod any_view;
 pub use any_view::AnyView;
 
-mod sequence;
+pub mod sequence;
 pub use sequence::{AppendVec, ElementSplice, ViewSequence};
 
 pub mod docs;
